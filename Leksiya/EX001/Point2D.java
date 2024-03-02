@@ -1,4 +1,4 @@
-package Leksiya.less1;
+package Leksiya.EX001;
 
 /**
  * Bu 2D nuqta
