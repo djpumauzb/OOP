@@ -1,4 +1,4 @@
-package Leksiya.Ex005;
+package Leksiya.less1.Ex005;
 
 import java.util.Random;
 

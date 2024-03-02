@@ -1,4 +1,4 @@
-package Leksiya.Ex007;
+package Leksiya.less1.Ex007;
 
 import java.util.ArrayList;
 import java.util.List;

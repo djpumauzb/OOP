@@ -1,4 +1,4 @@
-package Leksiya.Ex007;
+package Leksiya.less1.Ex007;
  
 public class Priest extends BaseHero {
 

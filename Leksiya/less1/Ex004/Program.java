@@ -1,4 +1,4 @@
-package Leksiya.Ex004;
+package Leksiya.less1.Ex004;
 
 public class Program {
     public static void main(String[] args) {

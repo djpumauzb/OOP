@@ -1,4 +1,4 @@
-package Leksiya.Ex006;
+package Leksiya.less1.Ex006;
 
 public class Magician extends BaseHero {
 

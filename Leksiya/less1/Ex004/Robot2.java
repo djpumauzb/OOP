@@ -1,4 +1,4 @@
-package Leksiya.Ex004;
+package Leksiya.less1.Ex004;
 
 public class Robot2 {
         /**Уровень робота */
