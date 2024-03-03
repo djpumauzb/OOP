@@ -2,17 +2,22 @@ package Seminar.sem1.hw;
 
 public class Main {
     public static void main(String[] args) {
-        BottleOfWaterVM machine = new BottleOfWaterVM();
-        machine.addProductList(new BottleOfWater("Montella", 100, 5));
-        machine.addProductList(new BottleOfWater("Chortoq", 10, 0.7));
-        machine.addProductList(new BottleOfWater("Hydrolife", 1000, 1));
-        machine.addProductList(new BottleOfWater("Asu", 3, 0.5));
 
-        printProductByName(machine, "Asu");
-    }
+        BottleOfWaterVendingMachine machine = new BottleOfWaterVendingMachine();
+        HotDrinkVendingMachine hotMachine = new HotDrinkVendingMachine();
 
-    public static void printProductByName(VendingMachine vendingMachine,
-            String name) {
-        System.out.println(vendingMachine.getProduct(name));
+        machine.addBottleOfWater(new BottleOfWater("Water1", 100, 5));
+        machine.addBottleOfWater(new BottleOfWater("Water2", 20, 1.5));
+        machine.addBottleOfWater(new BottleOfWater("Water3", 300, 2.5));
+        machine.addBottleOfWater(new BottleOfWater("Water4", 40, 4));
+
+        hotMachine.addHotDrink(new HotDrink("coffee", 10.5, 100, 90));
+        hotMachine.addHotDrink(new HotDrink("tea", 5, 250, 85));
+        hotMachine.addHotDrink(new HotDrink("iceTea", 15, 150, 15));
+        hotMachine.addHotDrink(new HotDrink("hotMilk", 25, 200, 70));
+
+        System.out.println(machine.getProduct("Water1"));
+        System.out.println(hotMachine.getProduct("iceTea", 15, 150));
+
     }
 }

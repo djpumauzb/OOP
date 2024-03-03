@@ -1,10 +1,10 @@
 package Seminar.sem1.hw;
 
-public abstract class Product {
+abstract public class Product {
     private String name;
-    private Double cost;
+    private double cost;
 
-    public Product(String name, Double cost) {
+    public Product(String name, double cost) {
         this.name = name;
         this.cost = cost;
     }
@@ -17,16 +17,19 @@ public abstract class Product {
         this.name = name;
     }
 
-    public Double getCost() {
+    public double getCost() {
         return cost;
     }
 
-    public void setCost(Double cost) {
+    public void setCost(double cost) {
         this.cost = cost;
     }
 
     @Override
     public String toString() {
-        return String.format("Product: %d , Cost: %d", name, cost);
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", cost=" + cost +
+                '}';
     }
 }

@@ -1,9 +1,9 @@
 package Seminar.sem1.hw;
 
+import java.util.List;
+
 public interface VendingMachine {
-    void addProductList(Product product);
+    void initProducts(List<Product> list);
 
     Product getProduct(String name);
-
-    Product getProduct(Double cost);
 }
