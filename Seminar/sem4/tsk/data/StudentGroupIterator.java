@@ -1,4 +1,4 @@
-package Seminar.sem4.data;
+package Seminar.sem4.tsk.data;
 
 import java.util.Iterator;
 import java.util.List;

@@ -1,10 +1,10 @@
-package Seminar.sem4.view;
-
-import Seminar.sem4.data.Student;
-import Seminar.sem4.data.StudentGroup;
+package Seminar.sem4.tsk.view;
 
 import java.util.List;
 import java.util.logging.Logger;
+
+import Seminar.sem4.tsk.data.Student;
+import Seminar.sem4.tsk.data.StudentGroup;
 
 public class StudentView implements UserView<Student>{
 

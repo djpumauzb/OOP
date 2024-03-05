@@ -1,10 +1,10 @@
-package Seminar.sem4.controller;
+package Seminar.sem4.tsk.controller;
 
-import Seminar.sem4.data.Student;
-import Seminar.sem4.data.Teacher;
-import Seminar.sem4.service.StudentGroupService;
-import Seminar.sem4.service.StudentService;
-import Seminar.sem4.view.StudentView;
+import Seminar.sem4.tsk.data.Student;
+import Seminar.sem4.tsk.data.Teacher;
+import Seminar.sem4.tsk.service.StudentGroupService;
+import Seminar.sem4.tsk.service.StudentService;
+import Seminar.sem4.tsk.view.StudentView;
 
 import java.time.LocalDate;
 import java.util.Collections;

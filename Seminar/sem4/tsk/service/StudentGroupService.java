@@ -1,14 +1,14 @@
-package Seminar.sem4.service;
-
-import Seminar.sem4.data.Student;
-import Seminar.sem4.data.UserComparator;
-import Seminar.sem4.data.StudentGroup;
-import Seminar.sem4.data.Teacher;
+package Seminar.sem4.tsk.service;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
+
+import Seminar.sem4.tsk.data.Student;
+import Seminar.sem4.tsk.data.StudentGroup;
+import Seminar.sem4.tsk.data.Teacher;
+import Seminar.sem4.tsk.data.UserComparator;
 
 public class StudentGroupService {
     private StudentGroup studentGroup;

@@ -1,10 +1,10 @@
-package Seminar.sem4.service;
-
-import Seminar.sem4.data.Student;
+package Seminar.sem4.tsk.service;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+
+import Seminar.sem4.tsk.data.Student;
 
 public class StudentService implements UserService<Student> {
 
