@@ -16,5 +16,5 @@ class DivideOperation(Operator):
     def execute(self, a, b):
         if b == 0:
             logging.error("Деление на ноль!")
-            return None
+            return "Деление на ноль!"
         return a / b
