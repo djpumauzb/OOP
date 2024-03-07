@@ -1,4 +1,4 @@
-from operator import AddOperation, MultiplyOperation, DivideOperation
+from operators import AddOperation, MultiplyOperation, DivideOperation
 import logging
 
 class Calculator:
